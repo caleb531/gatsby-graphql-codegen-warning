@@ -1,8 +1,8 @@
 {
-  "name": "graph-ql-code-gen-error",
+  "name": "gatsby-graphql-codegen-warning",
   "version": "1.0.0",
   "private": true,
-  "description": "GraphQL CodeGen Error",
+  "description": "Gatsby GraphQL CodeGen Warning",
   "author": "Caleb Evans",
   "keywords": [
     "gatsby"
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "gatsby": "^4.4.0",
+    "gatsby-plugin-graphql-codegen": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

@@ -1,3 +1,4 @@
+import { graphql } from 'gatsby'
 import * as React from "react"
 
 // styles
@@ -180,5 +181,15 @@ const IndexPage = () => {
     </main>
   )
 }
+
+export const pageQuery = graphql`
+  query Home {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
+  }
+`;
 
 export default IndexPage
